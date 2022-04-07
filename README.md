@@ -11,7 +11,7 @@ A list of useful functions for wordpress that I use to clean up, customize and o
 ```php
 
 /**
- * Create custom WordPress dashboard widget
+ * Custom WordPress dashboard widget
  */
  
 function dashboard_widget_function() {
