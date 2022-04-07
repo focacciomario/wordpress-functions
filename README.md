@@ -9,6 +9,7 @@ A list of useful functions for wordpress that I use to clean up, customize and o
 
 ## Custom Worpress Widget
 '''php
+
 /**
  * Create custom WordPress dashboard widget
  */
@@ -24,4 +25,5 @@ function add_dashboard_widgets() {
     wp_add_dashboard_widget( 'custom_dashboard_widget', 'Custom Dashoard Widget', 'dashboard_widget_function' );
 }
 add_action( 'wp_dashboard_setup', 'add_dashboard_widgets' );
+
 '''
