@@ -2,7 +2,7 @@
 A list of useful functions for wordpress that I use to clean up, customize and optimize my sites
 
 [Create Custom Wordpress Widget](#custom-wordpress-widget)
-[Remove all standard wordpress widgets](#Remove-all-standard-WP-widget)
+[Remove all standard Wordpress widgets](#remove-all-standard-WP-widget)
 
 
 
