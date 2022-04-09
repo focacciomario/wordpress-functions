@@ -9,7 +9,7 @@ A list of useful functions for wordpress that I use to clean up, customize and o
 - [Remove Wordpress Admin Bar](#remove-wordpress-admin-bar)
 - [Add Open Graph Meta Tags](#add-open-graph-meta-tags)
 - [Load third-party scripts later to improve lighthouse performances](#load-third-party-scripts-to-improve-lighthouse-performances)
-- [](#)
+
 
 
 
