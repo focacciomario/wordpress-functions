@@ -9,7 +9,8 @@ A list of useful functions for wordpress that I use to clean up, customize and o
 - [Remove Wordpress Admin Bar](#remove-wordpress-admin-bar)
 - [Add Open Graph Meta Tags](#add-open-graph-meta-tags)
 - [Load third-party scripts later to improve lighthouse performances](#load-third-party-scripts-to-improve-lighthouse-performances)
-
+- [Remove Emoji](#remove-emoji)
+- [Hide Wordpress Version](#hide-wordpress-version)
 
 
 
@@ -167,5 +168,21 @@ window.addEventListener('scroll', () => {
     }
 });
 </script>
+```
+
+## Remove Emoji
+
+```php
+// Remove Emojis
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
+remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+remove_action( 'admin_print_styles', 'print_emoji_styles' );
+```
+
+## Hide Wordpress Version
+
+```php
+remove_action( 'wp_head', 'wp_generator' ) ;
 ```
 
