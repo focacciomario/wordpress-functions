@@ -1,4 +1,5 @@
-# wordpress-functions
+# Wordpress Functions
+
 A list of useful functions for wordpress that I use to clean up, customize and optimize my sites
 
 - [Create Custom Wordpress Widget](#custom-wordpress-widget)
